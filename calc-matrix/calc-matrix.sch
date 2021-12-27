@@ -2159,5 +2159,5 @@ Power Switch
 Text Notes 7500 4450 0    50   ~ 0
 LCD Connector
 Text Notes 3350 7850 0    50   ~ 0
-Copyright (c)  2021\nBy Wumpus Cave Electronics, LLC\nCC-BY
+Calculator Matrix\nCopyright (c)  2021\nBy Wumpus Cave Electronics, LLC\nCC-BY
 $EndSCHEMATC
