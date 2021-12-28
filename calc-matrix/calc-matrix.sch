@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 1150 5750 0    50   Input ~ 0
+Text GLabel 1150 6650 0    50   Input ~ 0
 COL1
 Wire Wire Line
 	1700 3400 1450 3400
@@ -473,9 +473,9 @@ Wire Wire Line
 	2500 3500 2650 3500
 Wire Wire Line
 	2950 3900 2950 3500
-Text GLabel 1150 5850 0    50   Input ~ 0
+Text GLabel 1150 6550 0    50   Input ~ 0
 COL2
-Text GLabel 1150 5950 0    50   Input ~ 0
+Text GLabel 1150 6450 0    50   Input ~ 0
 COL3
 Connection ~ 5350 2950
 Connection ~ 5350 2350
@@ -725,7 +725,7 @@ Wire Wire Line
 	4100 3500 4250 3500
 Wire Wire Line
 	4550 3900 4550 3500
-Text GLabel 1150 6050 0    50   Input ~ 0
+Text GLabel 1150 6350 0    50   Input ~ 0
 COL4
 Connection ~ 2500 3100
 Connection ~ 3300 3100
@@ -742,7 +742,7 @@ Connection ~ 4100 1400
 Connection ~ 2500 850 
 Connection ~ 3300 850 
 Connection ~ 4100 850 
-Text GLabel 1150 6150 0    50   Input ~ 0
+Text GLabel 1150 6250 0    50   Input ~ 0
 COL5
 Connection ~ 6950 2950
 Connection ~ 6950 2350
@@ -1048,9 +1048,9 @@ Wire Wire Line
 	5700 3500 5850 3500
 Wire Wire Line
 	6150 3900 6150 3500
-Text GLabel 1150 6250 0    50   Input ~ 0
+Text GLabel 1150 6150 0    50   Input ~ 0
 COL6
-Text GLabel 1150 6350 0    50   Input ~ 0
+Text GLabel 1150 6050 0    50   Input ~ 0
 COL7
 Connection ~ 8550 2950
 Connection ~ 8550 2350
@@ -1360,7 +1360,7 @@ Wire Wire Line
 	7300 3500 7450 3500
 Wire Wire Line
 	7750 3900 7750 3500
-Text GLabel 1150 6450 0    50   Input ~ 0
+Text GLabel 1150 5950 0    50   Input ~ 0
 COL8
 Connection ~ 5700 3100
 Connection ~ 6500 3100
@@ -1377,7 +1377,7 @@ Connection ~ 7300 1400
 Connection ~ 5700 850 
 Connection ~ 6500 850 
 Connection ~ 7300 850 
-Text GLabel 1150 6550 0    50   Input ~ 0
+Text GLabel 1150 5850 0    50   Input ~ 0
 COL9
 Connection ~ 9350 2950
 Connection ~ 9350 2350
@@ -1543,7 +1543,7 @@ Connection ~ 8100 1400
 Connection ~ 8100 1950
 Connection ~ 8100 2550
 Connection ~ 8100 3100
-Text GLabel 1150 6650 0    50   Input ~ 0
+Text GLabel 1150 5750 0    50   Input ~ 0
 COL10
 Connection ~ 10150 2950
 Connection ~ 10150 2350
@@ -1953,10 +1953,8 @@ F 3 "" H 6900 4950 50  0001 C CNN
 	1    6900 4950
 	1    0    0    -1  
 $EndComp
-Text GLabel 1150 6950 0    50   Input ~ 0
+Text GLabel 2150 5350 2    50   Input ~ 0
 BTN_PWR
-Wire Wire Line
-	1150 6950 1350 6950
 Text GLabel 6900 5700 3    50   Input ~ 0
 BTN_PWR
 Wire Wire Line
@@ -1983,8 +1981,6 @@ Text GLabel 9350 3900 3    50   Input ~ 0
 COL9
 Text GLabel 10150 3900 3    50   Input ~ 0
 COL10
-Text GLabel 3700 6450 2    50   Input ~ 0
-EN
 $Comp
 L power:GND #PWR0112
 U 1 1 61F0C31B
@@ -2046,42 +2042,40 @@ F 3 "~" H 1800 6150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 NoConn ~ 2000 5250
-Text GLabel 2150 5450 2    50   Input ~ 0
+Text GLabel 2150 6650 2    50   Input ~ 0
 LCD_CS
-Text GLabel 2150 5550 2    50   Input ~ 0
+Text GLabel 2150 6550 2    50   Input ~ 0
 LCD_RESET
-Text GLabel 2150 5650 2    50   Input ~ 0
+Text GLabel 2150 6450 2    50   Input ~ 0
 LCD_DC
-Text GLabel 2150 5750 2    50   Input ~ 0
+Text GLabel 2150 6350 2    50   Input ~ 0
 LCD_MOSI
-Text GLabel 2150 5850 2    50   Input ~ 0
+Text GLabel 2150 6250 2    50   Input ~ 0
 LCD_SCK
-Text GLabel 2150 5950 2    50   Input ~ 0
+Text GLabel 2150 6150 2    50   Input ~ 0
 LCD_BACKLIGHT
 Text GLabel 2150 6050 2    50   Input ~ 0
 LCD_MISO
-Text GLabel 2150 6150 2    50   Input ~ 0
+Text GLabel 2150 5950 2    50   Input ~ 0
 LCD_T_CLK
-Text GLabel 2150 6250 2    50   Input ~ 0
+Text GLabel 2150 5850 2    50   Input ~ 0
 LCD_T_CS
-Text GLabel 2150 6350 2    50   Input ~ 0
+Text GLabel 2150 5750 2    50   Input ~ 0
 LCD_T_DIN
-Text GLabel 2150 6450 2    50   Input ~ 0
+Text GLabel 2150 5650 2    50   Input ~ 0
 LCD_T_DO
-Text GLabel 2150 6550 2    50   Input ~ 0
+Text GLabel 2150 5550 2    50   Input ~ 0
 LCD_T_IRQ
-Text GLabel 2150 6950 2    50   Input ~ 0
+Text GLabel 2150 7050 2    50   Input ~ 0
 SD_SCK
-Text GLabel 2150 6850 2    50   Input ~ 0
+Text GLabel 2150 6950 2    50   Input ~ 0
 SD_MISO
-Text GLabel 2150 6750 2    50   Input ~ 0
+Text GLabel 2150 6850 2    50   Input ~ 0
 SD_MOSI
-Text GLabel 2150 6650 2    50   Input ~ 0
+Text GLabel 2150 6750 2    50   Input ~ 0
 SD_CS
-Text GLabel 2150 5350 2    50   Input ~ 0
+Text GLabel 2150 5450 2    50   Input ~ 0
 LBO
-Wire Wire Line
-	2150 5350 2000 5350
 Wire Wire Line
 	2000 5450 2150 5450
 Wire Wire Line
@@ -2117,10 +2111,6 @@ Wire Wire Line
 NoConn ~ 3500 6350
 NoConn ~ 3500 6250
 NoConn ~ 3500 6150
-Text GLabel 2150 7050 2    50   Input ~ 0
-EN
-Wire Wire Line
-	2000 7050 2150 7050
 NoConn ~ 2000 7150
 NoConn ~ 1350 6750
 NoConn ~ 1350 6850
@@ -2160,4 +2150,20 @@ Text Notes 7500 4450 0    50   ~ 0
 LCD Connector
 Text Notes 3350 7850 0    50   ~ 0
 Calculator Matrix\nCopyright (c)  2021\nBy Wumpus Cave Electronics, LLC\nCC-BY
+$Comp
+L power:+5V #PWR?
+U 1 1 625050B7
+P 3700 6450
+F 0 "#PWR?" H 3700 6300 50  0001 C CNN
+F 1 "+5V" H 3715 6623 50  0000 C CNN
+F 2 "" H 3700 6450 50  0001 C CNN
+F 3 "" H 3700 6450 50  0001 C CNN
+	1    3700 6450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 7050 2150 7050
+NoConn ~ 1350 6950
+Wire Wire Line
+	2000 5350 2150 5350
 $EndSCHEMATC
