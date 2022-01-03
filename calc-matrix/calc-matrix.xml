@@ -1,0 +1,1843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>X:\home\tmurray\proj\rpn-83\calc-matrix\calc-matrix.sch</source>
+    <date>12/28/2021 7:49:27 AM</date>
+    <tool>Eeschema (5.1.7)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev>1</rev>
+        <date/>
+        <source>calc-matrix.sch</source>
+        <comment number="1" value="Designed for OSH Park 2 Layer Prototype"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">RNCP0805FTD10K0TR-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C978B3</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">RNCP0805FTD10K0TR-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C9994C</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">RNCP0805FTD10K0TR-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C9E967</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">RNCP0805FTD10K0TR-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C9E988</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">RNCP0805FTD10K0TR-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CA1D54</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>del</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CAE185</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CAE17E</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>mode</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CAE175</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CAE16E</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>2nd</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CAE165</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CAE15E</tstamp>
+    </comp>
+    <comp ref="SW9">
+      <value>right</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CAE153</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CAE14C</tstamp>
+    </comp>
+    <comp ref="SW10">
+      <value>up</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CAE143</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CAE13C</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>graph</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CA1D62</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CA1D5B</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>trace</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C9E996</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C9E98F</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>zoom</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C9E975</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C9E96E</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>window</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C99962</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C99957</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>y-equals</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C92F6F</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C968C2</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CBEA67</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CBEA77</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CBEA87</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CBEA99</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CBEAA9</tstamp>
+    </comp>
+    <comp ref="SW11">
+      <value>stat</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CBEAB9</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CBEAC0</tstamp>
+    </comp>
+    <comp ref="SW12">
+      <value>xton</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CBEAC9</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CBEAD0</tstamp>
+    </comp>
+    <comp ref="SW13">
+      <value>alpha</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CBEAD9</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CBEAE0</tstamp>
+    </comp>
+    <comp ref="SW14">
+      <value>down</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CBEAEB</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CBEAF2</tstamp>
+    </comp>
+    <comp ref="SW15">
+      <value>left</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CBEAFB</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CBEB02</tstamp>
+    </comp>
+    <comp ref="SW26">
+      <value>Divide</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA416</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA41D</tstamp>
+    </comp>
+    <comp ref="SW27">
+      <value>ROFL</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA426</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA42D</tstamp>
+    </comp>
+    <comp ref="SW28">
+      <value>LOL</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA436</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA43D</tstamp>
+    </comp>
+    <comp ref="SW29">
+      <value>Comma</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA448</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA44F</tstamp>
+    </comp>
+    <comp ref="SW30">
+      <value>x-squared</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA458</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA45F</tstamp>
+    </comp>
+    <comp ref="SW21">
+      <value>carot</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA46F</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA476</tstamp>
+    </comp>
+    <comp ref="SW22">
+      <value>tan</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA47F</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA486</tstamp>
+    </comp>
+    <comp ref="SW23">
+      <value>cos</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA48F</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA496</tstamp>
+    </comp>
+    <comp ref="SW24">
+      <value>sin</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA4A1</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA4A8</tstamp>
+    </comp>
+    <comp ref="SW25">
+      <value>x-neg1</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA4B1</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA4B8</tstamp>
+    </comp>
+    <comp ref="SW36">
+      <value>Minus</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA4CA</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA4D1</tstamp>
+    </comp>
+    <comp ref="SW37">
+      <value>6</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA4DA</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA4E1</tstamp>
+    </comp>
+    <comp ref="SW38">
+      <value>5</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA4EA</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA4F1</tstamp>
+    </comp>
+    <comp ref="SW39">
+      <value>4</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA4FC</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA503</tstamp>
+    </comp>
+    <comp ref="SW40">
+      <value>LN</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA50C</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA513</tstamp>
+    </comp>
+    <comp ref="SW31">
+      <value>Mult</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA523</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA52A</tstamp>
+    </comp>
+    <comp ref="SW32">
+      <value>9</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA533</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA53A</tstamp>
+    </comp>
+    <comp ref="SW33">
+      <value>8</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA543</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA54A</tstamp>
+    </comp>
+    <comp ref="SW34">
+      <value>7</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA555</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA55C</tstamp>
+    </comp>
+    <comp ref="SW35">
+      <value>Log</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA565</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CEA56C</tstamp>
+    </comp>
+    <comp ref="SW41">
+      <value>Plus</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D06BAB</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D06BB2</tstamp>
+    </comp>
+    <comp ref="SW42">
+      <value>3</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D06BBA</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D06BC1</tstamp>
+    </comp>
+    <comp ref="SW43">
+      <value>2</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D06BCA</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D06BD1</tstamp>
+    </comp>
+    <comp ref="SW44">
+      <value>1</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D06BDC</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D06BE3</tstamp>
+    </comp>
+    <comp ref="SW45">
+      <value>Sto</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D06BEC</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D06BF3</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D5BE10</tstamp>
+    </comp>
+    <comp ref="SW47">
+      <value>Neg</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D5BE18</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D5BE1F</tstamp>
+    </comp>
+    <comp ref="SW48">
+      <value>Dot</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D5BE28</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D5BE2F</tstamp>
+    </comp>
+    <comp ref="SW49">
+      <value>0</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D5BE3A</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>D</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">1655-1360-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D5BE41</tstamp>
+    </comp>
+    <comp ref="SW50">
+      <value>PWR</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D5BE4A</tstamp>
+    </comp>
+    <comp ref="SW46">
+      <value>Enter</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D5BE09</tstamp>
+    </comp>
+    <comp ref="SW16">
+      <value>clear</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CBEA60</tstamp>
+    </comp>
+    <comp ref="SW17">
+      <value>vars</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CBEA70</tstamp>
+    </comp>
+    <comp ref="SW18">
+      <value>prgm</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CBEA80</tstamp>
+    </comp>
+    <comp ref="SW19">
+      <value>red pill</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CBEA92</tstamp>
+    </comp>
+    <comp ref="SW20">
+      <value>math</value>
+      <footprint>custom:PTS 647 SN70 SMTR2 LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">PTS647SN70SMTR2LFSTR-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CBEAA2</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>ESP32</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x21</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">&lt;NONE&gt;</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x21_Female" description="Generic connector, single row, 01x21, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CFB626</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>LCD</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x14</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">&lt;NONE&gt;</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x14_Male" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61DC647B</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>SD</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">&lt;NONE&gt;</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61E63518</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>LiPo</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x08</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">&lt;NONE&gt;</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F07806</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>ESP32</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x21</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey #">&lt;NONE&gt;</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x21_Female" description="Generic connector, single row, 01x21, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CF83A6</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x08_Male">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x14_Male">
+      <description>Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x14_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x21_Female">
+      <description>Generic connector, single row, 01x21, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x21_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D49-Pad2)">
+      <node ref="D49" pin="2"/>
+      <node ref="SW49" pin="1"/>
+    </net>
+    <net code="2" name="Net-(D21-Pad2)">
+      <node ref="D21" pin="2"/>
+      <node ref="SW21" pin="1"/>
+    </net>
+    <net code="3" name="Net-(D46-Pad2)">
+      <node ref="D46" pin="2"/>
+      <node ref="SW46" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D47-Pad2)">
+      <node ref="SW47" pin="1"/>
+      <node ref="D47" pin="2"/>
+    </net>
+    <net code="5" name="Net-(D48-Pad2)">
+      <node ref="D48" pin="2"/>
+      <node ref="SW48" pin="1"/>
+    </net>
+    <net code="6" name="+5V">
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="J1" pin="20"/>
+      <node ref="J3" pin="4"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J3" pin="8"/>
+      <node ref="SW50" pin="2"/>
+    </net>
+    <net code="7" name="COL8">
+      <node ref="D39" pin="1"/>
+      <node ref="D40" pin="1"/>
+      <node ref="D38" pin="1"/>
+      <node ref="D36" pin="1"/>
+      <node ref="J1" pin="9"/>
+      <node ref="D37" pin="1"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="J5" pin="2"/>
+      <node ref="J1" pin="21"/>
+      <node ref="J3" pin="7"/>
+      <node ref="J3" pin="5"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="9" name="COL9">
+      <node ref="J1" pin="8"/>
+      <node ref="D41" pin="1"/>
+      <node ref="D42" pin="1"/>
+      <node ref="D43" pin="1"/>
+      <node ref="D45" pin="1"/>
+      <node ref="D44" pin="1"/>
+    </net>
+    <net code="10" name="COL10">
+      <node ref="D48" pin="1"/>
+      <node ref="J1" pin="7"/>
+      <node ref="D46" pin="1"/>
+      <node ref="D49" pin="1"/>
+      <node ref="D47" pin="1"/>
+    </net>
+    <net code="11" name="Net-(J1-Pad18)">
+      <node ref="J1" pin="18"/>
+    </net>
+    <net code="12" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="13" name="Net-(J1-Pad17)">
+      <node ref="J1" pin="17"/>
+    </net>
+    <net code="14" name="Net-(J1-Pad19)">
+      <node ref="J1" pin="19"/>
+    </net>
+    <net code="15" name="Net-(D34-Pad2)">
+      <node ref="SW34" pin="1"/>
+      <node ref="D34" pin="2"/>
+    </net>
+    <net code="16" name="Net-(D33-Pad2)">
+      <node ref="SW33" pin="1"/>
+      <node ref="D33" pin="2"/>
+    </net>
+    <net code="17" name="Net-(D35-Pad2)">
+      <node ref="D35" pin="2"/>
+      <node ref="SW35" pin="1"/>
+    </net>
+    <net code="18" name="ROW1">
+      <node ref="SW46" pin="2"/>
+      <node ref="SW26" pin="2"/>
+      <node ref="SW6" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="SW21" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="SW41" pin="2"/>
+      <node ref="SW11" pin="2"/>
+      <node ref="SW5" pin="2"/>
+      <node ref="SW31" pin="2"/>
+      <node ref="SW36" pin="2"/>
+      <node ref="SW16" pin="2"/>
+    </net>
+    <net code="19" name="Net-(D44-Pad2)">
+      <node ref="SW44" pin="1"/>
+      <node ref="D44" pin="2"/>
+    </net>
+    <net code="20" name="Net-(D45-Pad2)">
+      <node ref="D45" pin="2"/>
+      <node ref="SW45" pin="1"/>
+    </net>
+    <net code="21" name="Net-(D41-Pad2)">
+      <node ref="SW41" pin="1"/>
+      <node ref="D41" pin="2"/>
+    </net>
+    <net code="22" name="Net-(D42-Pad2)">
+      <node ref="SW42" pin="1"/>
+      <node ref="D42" pin="2"/>
+    </net>
+    <net code="23" name="Net-(D43-Pad2)">
+      <node ref="SW43" pin="1"/>
+      <node ref="D43" pin="2"/>
+    </net>
+    <net code="24" name="SD_CS">
+      <node ref="J4" pin="1"/>
+      <node ref="J2" pin="17"/>
+    </net>
+    <net code="25" name="SD_MOSI">
+      <node ref="J4" pin="2"/>
+      <node ref="J2" pin="18"/>
+    </net>
+    <net code="26" name="SD_MISO">
+      <node ref="J4" pin="3"/>
+      <node ref="J2" pin="19"/>
+    </net>
+    <net code="27" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="28" name="SD_SCK">
+      <node ref="J2" pin="20"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="29" name="Net-(J2-Pad21)">
+      <node ref="J2" pin="21"/>
+    </net>
+    <net code="30" name="BTN_PWR">
+      <node ref="SW50" pin="1"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="31" name="LBO">
+      <node ref="J2" pin="4"/>
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="32" name="LCD_CS">
+      <node ref="J5" pin="3"/>
+      <node ref="J2" pin="16"/>
+    </net>
+    <net code="33" name="LCD_RESET">
+      <node ref="J5" pin="4"/>
+      <node ref="J2" pin="15"/>
+    </net>
+    <net code="34" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="35" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="36" name="LCD_MISO">
+      <node ref="J5" pin="9"/>
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="37" name="LCD_BACKLIGHT">
+      <node ref="J5" pin="8"/>
+      <node ref="J2" pin="11"/>
+    </net>
+    <net code="38" name="LCD_SCK">
+      <node ref="J2" pin="12"/>
+      <node ref="J5" pin="7"/>
+    </net>
+    <net code="39" name="LCD_MOSI">
+      <node ref="J5" pin="6"/>
+      <node ref="J2" pin="13"/>
+    </net>
+    <net code="40" name="LCD_DC">
+      <node ref="J5" pin="5"/>
+      <node ref="J2" pin="14"/>
+    </net>
+    <net code="41" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="42" name="LCD_T_CLK">
+      <node ref="J2" pin="9"/>
+      <node ref="J5" pin="10"/>
+    </net>
+    <net code="43" name="LCD_T_CS">
+      <node ref="J5" pin="11"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="44" name="LCD_T_DIN">
+      <node ref="J2" pin="7"/>
+      <node ref="J5" pin="12"/>
+    </net>
+    <net code="45" name="LCD_T_DO">
+      <node ref="J2" pin="6"/>
+      <node ref="J5" pin="13"/>
+    </net>
+    <net code="46" name="LCD_T_IRQ">
+      <node ref="J2" pin="5"/>
+      <node ref="J5" pin="14"/>
+    </net>
+    <net code="47" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="48" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="49" name="COL4">
+      <node ref="D17" pin="1"/>
+      <node ref="J1" pin="13"/>
+      <node ref="D20" pin="1"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D19" pin="1"/>
+    </net>
+    <net code="50" name="Net-(D16-Pad2)">
+      <node ref="D16" pin="2"/>
+      <node ref="SW16" pin="1"/>
+    </net>
+    <net code="51" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="SW4" pin="1"/>
+    </net>
+    <net code="52" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="SW5" pin="1"/>
+    </net>
+    <net code="53" name="COL1">
+      <node ref="D5" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="J1" pin="16"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="54" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="SW3" pin="1"/>
+    </net>
+    <net code="55" name="Net-(D11-Pad2)">
+      <node ref="SW11" pin="1"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="56" name="ROW2">
+      <node ref="SW32" pin="2"/>
+      <node ref="SW12" pin="2"/>
+      <node ref="SW7" pin="2"/>
+      <node ref="SW27" pin="2"/>
+      <node ref="SW22" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="SW47" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="SW37" pin="2"/>
+      <node ref="SW17" pin="2"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="SW42" pin="2"/>
+    </net>
+    <net code="57" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2"/>
+      <node ref="SW12" pin="1"/>
+    </net>
+    <net code="58" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2"/>
+      <node ref="SW13" pin="1"/>
+    </net>
+    <net code="59" name="Net-(D17-Pad2)">
+      <node ref="D17" pin="2"/>
+      <node ref="SW17" pin="1"/>
+    </net>
+    <net code="60" name="Net-(D18-Pad2)">
+      <node ref="D18" pin="2"/>
+      <node ref="SW18" pin="1"/>
+    </net>
+    <net code="61" name="Net-(D19-Pad2)">
+      <node ref="SW19" pin="1"/>
+      <node ref="D19" pin="2"/>
+    </net>
+    <net code="62" name="Net-(D20-Pad2)">
+      <node ref="D20" pin="2"/>
+      <node ref="SW20" pin="1"/>
+    </net>
+    <net code="63" name="Net-(D9-Pad2)">
+      <node ref="SW9" pin="1"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="64" name="ROW5">
+      <node ref="R1" pin="1"/>
+      <node ref="SW20" pin="2"/>
+      <node ref="SW15" pin="2"/>
+      <node ref="SW25" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="SW10" pin="2"/>
+      <node ref="SW40" pin="2"/>
+      <node ref="SW35" pin="2"/>
+      <node ref="SW45" pin="2"/>
+      <node ref="SW30" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="65" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="SW8" pin="1"/>
+    </net>
+    <net code="66" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2"/>
+      <node ref="SW10" pin="1"/>
+    </net>
+    <net code="67" name="COL2">
+      <node ref="D9" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="J1" pin="15"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="68" name="Net-(D6-Pad2)">
+      <node ref="SW6" pin="1"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="69" name="Net-(D7-Pad2)">
+      <node ref="SW7" pin="1"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="70" name="Net-(D25-Pad2)">
+      <node ref="D25" pin="2"/>
+      <node ref="SW25" pin="1"/>
+    </net>
+    <net code="71" name="Net-(D36-Pad2)">
+      <node ref="SW36" pin="1"/>
+      <node ref="D36" pin="2"/>
+    </net>
+    <net code="72" name="Net-(D37-Pad2)">
+      <node ref="D37" pin="2"/>
+      <node ref="SW37" pin="1"/>
+    </net>
+    <net code="73" name="Net-(D22-Pad2)">
+      <node ref="D22" pin="2"/>
+      <node ref="SW22" pin="1"/>
+    </net>
+    <net code="74" name="ROW3">
+      <node ref="SW18" pin="2"/>
+      <node ref="SW48" pin="2"/>
+      <node ref="SW8" pin="2"/>
+      <node ref="SW23" pin="2"/>
+      <node ref="SW43" pin="2"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="SW13" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="SW28" pin="2"/>
+      <node ref="SW33" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="SW38" pin="2"/>
+    </net>
+    <net code="75" name="Net-(D23-Pad2)">
+      <node ref="D23" pin="2"/>
+      <node ref="SW23" pin="1"/>
+    </net>
+    <net code="76" name="ROW4">
+      <node ref="SW14" pin="2"/>
+      <node ref="SW29" pin="2"/>
+      <node ref="SW39" pin="2"/>
+      <node ref="SW9" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="J1" pin="5"/>
+      <node ref="SW34" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW44" pin="2"/>
+      <node ref="SW24" pin="2"/>
+      <node ref="SW19" pin="2"/>
+      <node ref="SW49" pin="2"/>
+    </net>
+    <net code="77" name="Net-(D24-Pad2)">
+      <node ref="D24" pin="2"/>
+      <node ref="SW24" pin="1"/>
+    </net>
+    <net code="78" name="COL7">
+      <node ref="D33" pin="1"/>
+      <node ref="D34" pin="1"/>
+      <node ref="D35" pin="1"/>
+      <node ref="D31" pin="1"/>
+      <node ref="D32" pin="1"/>
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="79" name="Net-(D31-Pad2)">
+      <node ref="D31" pin="2"/>
+      <node ref="SW31" pin="1"/>
+    </net>
+    <net code="80" name="Net-(D40-Pad2)">
+      <node ref="D40" pin="2"/>
+      <node ref="SW40" pin="1"/>
+    </net>
+    <net code="81" name="Net-(D32-Pad2)">
+      <node ref="SW32" pin="1"/>
+      <node ref="D32" pin="2"/>
+    </net>
+    <net code="82" name="Net-(D38-Pad2)">
+      <node ref="D38" pin="2"/>
+      <node ref="SW38" pin="1"/>
+    </net>
+    <net code="83" name="COL5">
+      <node ref="D21" pin="1"/>
+      <node ref="D24" pin="1"/>
+      <node ref="J1" pin="12"/>
+      <node ref="D25" pin="1"/>
+      <node ref="D22" pin="1"/>
+      <node ref="D23" pin="1"/>
+    </net>
+    <net code="84" name="Net-(D39-Pad2)">
+      <node ref="SW39" pin="1"/>
+      <node ref="D39" pin="2"/>
+    </net>
+    <net code="85" name="COL3">
+      <node ref="D13" pin="1"/>
+      <node ref="J1" pin="14"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D15" pin="1"/>
+    </net>
+    <net code="86" name="Net-(D14-Pad2)">
+      <node ref="SW14" pin="1"/>
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="87" name="Net-(D26-Pad2)">
+      <node ref="SW26" pin="1"/>
+      <node ref="D26" pin="2"/>
+    </net>
+    <net code="88" name="Net-(D15-Pad2)">
+      <node ref="SW15" pin="1"/>
+      <node ref="D15" pin="2"/>
+    </net>
+    <net code="89" name="COL6">
+      <node ref="D27" pin="1"/>
+      <node ref="J1" pin="11"/>
+      <node ref="D28" pin="1"/>
+      <node ref="D29" pin="1"/>
+      <node ref="D26" pin="1"/>
+      <node ref="D30" pin="1"/>
+    </net>
+    <net code="90" name="Net-(D30-Pad2)">
+      <node ref="SW30" pin="1"/>
+      <node ref="D30" pin="2"/>
+    </net>
+    <net code="91" name="Net-(D29-Pad2)">
+      <node ref="SW29" pin="1"/>
+      <node ref="D29" pin="2"/>
+    </net>
+    <net code="92" name="Net-(D27-Pad2)">
+      <node ref="D27" pin="2"/>
+      <node ref="SW27" pin="1"/>
+    </net>
+    <net code="93" name="Net-(D28-Pad2)">
+      <node ref="SW28" pin="1"/>
+      <node ref="D28" pin="2"/>
+    </net>
+  </nets>
+</export>

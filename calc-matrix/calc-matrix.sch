@@ -1752,6 +1752,7 @@ F 0 "J1" H 1400 5050 50  0000 L CNN
 F 1 "ESP32" H 1350 4950 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x21" H 1550 6150 50  0001 C CNN
 F 3 "~" H 1550 6150 50  0001 C CNN
+F 4 "<NONE>" H 1550 6150 50  0001 C CNN "Digikey #"
 	1    1550 6150
 	1    0    0    -1  
 $EndComp
@@ -1838,6 +1839,7 @@ F 0 "J5" H 8358 6131 50  0000 C CNN
 F 1 "LCD" H 8358 6040 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x14" H 8250 5350 50  0001 C CNN
 F 3 "~" H 8250 5350 50  0001 C CNN
+F 4 "<NONE>" H 8250 5350 50  0001 C CNN "Digikey #"
 	1    8250 5350
 	1    0    0    -1  
 $EndComp
@@ -1923,6 +1925,7 @@ F 0 "J4" H 3322 4932 50  0000 R CNN
 F 1 "SD" H 3322 5023 50  0000 R CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 3350 5050 50  0001 C CNN
 F 3 "~" H 3350 5050 50  0001 C CNN
+F 4 "<NONE>" H 3350 5050 50  0001 C CNN "Digikey #"
 	1    3350 5050
 	1    0    0    -1  
 $EndComp
@@ -2015,6 +2018,7 @@ F 0 "J3" H 3408 6931 50  0000 C CNN
 F 1 "LiPo" H 3408 6840 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x08" H 3300 6450 50  0001 C CNN
 F 3 "~" H 3300 6450 50  0001 C CNN
+F 4 "<NONE>" H 3300 6450 50  0001 C CNN "Digikey #"
 	1    3300 6450
 	1    0    0    -1  
 $EndComp
@@ -2038,6 +2042,7 @@ F 0 "J2" H 1692 7335 50  0000 C CNN
 F 1 "ESP32" H 1692 7244 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x21" H 1800 6150 50  0001 C CNN
 F 3 "~" H 1800 6150 50  0001 C CNN
+F 4 "<NONE>" H 1800 6150 50  0001 C CNN "Digikey #"
 	1    1800 6150
 	-1   0    0    -1  
 $EndComp
